@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.alejandro.restauranteweb.session;
+
+/**
+ * @author Horiz
+ *
+ */
+public class SessionBean {
+
+}

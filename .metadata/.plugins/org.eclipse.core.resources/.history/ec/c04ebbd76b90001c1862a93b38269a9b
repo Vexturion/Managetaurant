@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.alejandro.restauranteweb.converters;
+
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.util.Date;
+
+import javax.faces.component.UIComponent;
+import javax.faces.context.FacesContext;
+import javax.faces.convert.Converter;
+
+/**
+ * @author Jose Alejandro Cruz Duran
+ * Converter de fehcas de tipo localdatetime
+ *
+ */
+public class LocalDateTimeConverter implements Converter {
+
+	@Override
+	public Object getAsObject(FacesContext context, UIComponent component, String value) {
+		return LocalDateTime.parse(value);
+	}
+
+	@Override
+	public String getAsString(FacesContext context, UIComponent component, Object value) {
+		LocalDateTime localDateTime = (LocalDateTime) value;
+		
+		Date fecha = Date.from(LocalDateTime.atZone(ZoneId.systemDefault()).toInstant());
+	}
+
+}

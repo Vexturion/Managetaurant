@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:b="http://bootsfaces.net/ui">
+<h:head>
+	<title>Managetaurant App</title>
+</h:head>
+<h:body>
+	<ui:include src="/navbar.xhtml"></ui:include>
+	<b:container>
+		<b:row>
+			<h:form id="formAdminRestaurantes">
+				<b:growl show-detail="true" showSummary="true" id="msgValidaciones"
+					placementFrom="top"></b:growl>
+
+				<b:panel title="Administracion de restaurantes" look="primary"
+					collapsible="false">
+
+					<b:commandButton look="primary" id="btnAgregar" value="Agregar"
+						size="lg" style="margin-bottom: 20px" ajax="true"
+						oncomplete="$('#amodal').modal('show')"
+						onclick="ajax:AdminRestaurantesController.inicializarComponentes()"
+						update="formRegistroRestaurante">
+					</b:commandButton>
+
+					<b:dataTable id="tblRestaurantes" style="width: 100%" excel="true"
+						csv="true" pdf="true"
+						value="#{adminRestaurantesController.restaurantes}"
+						var="restaurante">
+
+						<b:dataTableColumn label="Imagen">
+							<b:image
+								value="/resources/images/restaurantes/#{restaurante.imagen}"
+								style="width: 50%">
+							</b:image>
+						</b:dataTableColumn>
+
+						<b:dataTableColumn label="Nombre">
+							<h:outputText value="#{restaurante.nombre}"></h:outputText>
+						</b:dataTableColumn>
+
+						<b:dataTableColumn label="Slogan">
+							<h:outputText value="#{restaurante.slogan}"></h:outputText>
+						</b:dataTableColumn>
+
+						<b:dataTableColumn label="Tipo de restaurante">
+							<h:outputText value="#{restaurante.tipoRestaurante.descripcion}"></h:outputText>
+						</b:dataTableColumn>
+
+						<b:dataTableColumn label="Fecha de Creacion">
+							<h:outputText value="#{restaurante.fechaCreacion}"></h:outputText>
+						</b:dataTableColumn>
+
+						<b:dataTableColumn label="Fecha de modificacion">
+							<h:outputText value="#{restaurante.fechaModificacion}"></h:outputText>
+						</b:dataTableColumn>
+
+						<b:dataTableColumn label="Estatus">
+							<b:label value="Habilitado" rendered="#{restaurante.estatus}"
+								severity="success"></b:label>
+
+							<b:label value="Deshabilitado" rendered="#{!restaurante.estatus}"
+								severity="danger"></b:label>
+						</b:dataTableColumn>
+
+						<b:dataTableColumn label="Actualizar">
+							<b:commandButton icon="pencil" look="success" ajax="true"
+								size="sm" update="formRegistroRestaurante"
+								oncomplete="$('#amodal').modal('show')"
+								onclick="ajax:adminRestaurantesController.cargarInformacionModal(restaurante)"></b:commandButton>
+						</b:dataTableColumn>
+
+
+					</b:dataTable>
+				</b:panel>
+			</h:form>
+			<b:modal id="amodal" title="Registro de restaurante"
+				styleClass="modalPseudoClass">
+				<b:form id="formRegistroRestaurante" enctype="multipart/form-data">
+
+					<b:inputText id="txtNombre" label="Nombre"
+						value="#{adminRestaurantesController.restaurante.nombre}"
+						required="true" col-md="12"
+						required-message="El nombre del restaurante es requerido"></b:inputText>
+
+					<h:outputText value="imagen" style="font-weight: bold"
+						class="col-md-12"></h:outputText>
+					<h:inputFile id="fileImagen"
+						value="#{adminRestaurantesController.archivoSeleccionado}"
+						class="col-md-12"></h:inputFile>
+
+					<b:inputText id="txtSlogan" label="Slogan"
+						value="#{adminRestaurantesController.restaurante.slogan}"
+						col-md="12"></b:inputText>
+
+					<b:selectOneMenu id="cboTipoRestaurante"
+						value="#{adminRestaurantesController.restaurante.tipoRestaurante.idTipoRestaurante}"
+						col-md="6" span="12" required="true"
+						requiredMessage="Es necesario asignar un tipo de restaurante"
+						label="Tipo de restaurante">
+						<f:selectItem itemLabel="-- Seleccione --">
+
+						</f:selectItem>
+						<f:selectItems
+							value="#{adminTiposRestaurantesController.tiposRestaurantes}"
+							var="tipoRestaurante"
+							itemValue="#{tipoRestaurante.idTipoRestaurante}"
+							itemLabel="#{tipoRestaurante.descripcion}"></f:selectItems>
+					</b:selectOneMenu>
+
+					<b:switch id="swEstatus"
+						value="#{adminRestaurantesController.restaurante.estatus}"
+						offText="Habilitar" onText="Deshabilitar" label="Estatus: "
+						offColor="success" onColor="danger" col-md="6" span="12"
+						rendered="#{adminRestaurantesController.restaurante.idRestaurante != null}"></b:switch>
+
+					<b:row style="margin-bottom: 10px; margin-top: 10px">
+						<b:column colMd="6">
+							<b:button id="btnCancelar" value="Cancelar"
+								large-screen="full-width" look="danger" dismiss="modal"
+								onclick="return false;"></b:button>
+						</b:column>
+
+						<b:column colMd="6">
+							<b:commandButton id="btnGuardar" large-screen="full-width"
+								value="Guardar" look="success"
+								update="formRegistroRestaurante, formAdminRestaurantes:tblRestaurantes, formAdminRestaurantes:msgValidaciones"
+								oncomplete="$('#amodal').modal('hide')"
+								onclick="ajax:adminRestaurantesController.guardar()"
+								rendered="#{adminRestaurantesController.restaurante.idRestaurante == null}"></b:commandButton>
+
+							<b:commandButton id="btnActualizar" large-screen="full-width"
+								value="Actualizar" look="success"
+								update="formRegistroRestaurante, formAdminRestaurantes:tblRestaurantes, formAdminRestaurantes:msgValidaciones"
+								oncomplete="$('#amodal').modal('hide')"
+								onclick="ajax:adminRestaurantesController.actualizar()"
+								rendered="#{adminRestaurantesController.restaurante.idRestaurante != null}"></b:commandButton>
+						</b:column>
+					</b:row>
+				</b:form>
+
+			</b:modal>
+
+		</b:row>
+	</b:container>
+</h:body>
+</html>

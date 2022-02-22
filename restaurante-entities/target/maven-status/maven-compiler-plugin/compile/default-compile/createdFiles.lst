@@ -1,0 +1,4 @@
+com\alejandro\restauranteentities\entity\CommonEntity.class
+com\alejandro\restauranteentities\entity\Restaurante.class
+com\alejandro\restauranteentities\entity\TipoRestaurante.class
+com\alejandro\restauranteentities\entity\Menu.class

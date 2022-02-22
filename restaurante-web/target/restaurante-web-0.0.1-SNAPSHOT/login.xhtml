@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:b="http://bootsfaces.net/ui">
+<h:head>
+	<title>Restaurante App</title>
+</h:head>
+
+<h:body>
+	<h:form id="formLogin">
+		<b:container id="containerLogin" layout="fluid">
+			<b:panel id="pnlLogin" title="inicio de sesion" look="primary"
+				collapsible="false">
+				<b:panelGrid columns="2" size="lg">
+
+					<b:image class="img"
+						value="/resources/images/login/restaurante-login.jpg"
+						style="width: 100%">
+
+					</b:image>
+					<b:row>
+
+						<b:column mediumScreen="2">
+							<h:outputText value="Usuario"></h:outputText>
+						</b:column>
+
+						<b:column mediumScreen="10">
+							<b:inputText placeholder="Ingrese su usuario" id="txtUsuario"
+								value="#{loginController.username}" required="true"
+								requiredMessage="Es necesario contar con un usuario">
+								<f:facet name="prepend">
+									<b:icon name="user"></b:icon>
+								</f:facet>
+							</b:inputText>
+							<b:focus target="txtUsuario"></b:focus>
+						</b:column>
+
+						<b:column mediumScreen="2">
+							<h:outputText value="Contraseña"></h:outputText>
+						</b:column>
+
+						<b:column mediumScreen="10">
+							<b:inputSecret placeholder="Ingrese su contraseña"
+								id="txtPassword" value="#{loginController.password}" required="true"
+								requiredMessage="Es necesario introducir la contraseña">
+								<f:facet name="prepend">
+									<b:icon name="lock"></b:icon>
+								</f:facet>
+							</b:inputSecret>
+							<b:focus target="txtPassword"></b:focus>
+<!-- 							<b:selectBooleanCheckbox value="" caption="Administrador General" -->
+<!-- 								onclick="" look="primary" style="width:100%; float:right"></b:selectBooleanCheckbox> -->
+							<b:commandButton value="Ingresar" onclick="ajax:loginController.entrar()" look="primary"
+								style="width:100%; float:right"></b:commandButton>
+						</b:column>
+					</b:row>
+					
+				</b:panelGrid>
+			</b:panel>
+		</b:container>
+	</h:form>
+</h:body>
+</html>

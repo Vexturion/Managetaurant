@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:b="http://bootsfaces.net/ui">
+
+	<b:container>
+		<h:form id="navbar">
+			<b:navBar brand="Managetaurant" brandHref="#" fluid="true" inverse="true">
+				<b:navbarLinks>
+					<b:navLink value="Link" href="#"></b:navLink>
+					<b:navLink value="Link" href="#"></b:navLink>
+					<b:dropMenu value="Gestion" iconAwesome="list">
+						<b:navLink value="Restaurantes" href="adminrestaurantes.xhtml"></b:navLink>
+						<b:navLink value="Tipos de restaurantes" href="admintiposrestaurantes.xhtml"></b:navLink>
+						<b:navLink value="Perfiles" href="#"></b:navLink>
+						<b:navLink value="Cerrar Sesion" href="#"></b:navLink>
+						<b:navLink></b:navLink>
+						<b:navLink header="Nav header"></b:navLink>
+						<b:navLink value="Separated link" href="#"></b:navLink>
+						<b:dropMenu value="Nested submenu" iconAwesome="birthday-cake"
+							iconAlign="right">
+							<b:navLink value="You can nest menus" href="#"></b:navLink>
+							<b:dropMenu value="Nested sub-submenu">
+								<b:navLink value="... as deep as ..." href="#"></b:navLink>
+								<b:dropMenu value="Nested sub-sub-submenu">
+									<b:navLink value="... you want!" href="#"></b:navLink>
+								</b:dropMenu>
+							</b:dropMenu>
+
+						</b:dropMenu>
+						<b:navLink value="One more separated link" href="#"></b:navLink>
+					</b:dropMenu>
+				</b:navbarLinks>
+				<form class="navbar-form navbar-left hidden-md hidden-sm hidden-xs"
+					role="search">
+					<div class="form-group">
+						<input type="text" class="form-control"/>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				<!-- Following line is needed for TBS 3.0.1 (panel content overflow issue) -->
+				<b:navbarLinks pull="right">
+					<b:navLink value="    " href="#"></b:navLink>
+				</b:navbarLinks>
+				<b:navbarLinks pull="right" styleClass="hidden-xs">
+					<b:navLink value="Link" href="#"></b:navLink>
+					<b:dropMenu value="Dropdown">
+						<b:navLink value="Restaurantes" href="adminrestaurantes.xhtml"></b:navLink>
+						<b:navLink value="Tipos de restaurantes" href="#"></b:navLink>
+						<b:navLink value="Perfiles" href="#"></b:navLink>
+						<b:navLink value="Cerrar Sesion" href="#"></b:navLink>
+						<b:navLink></b:navLink>
+						<b:navLink header="Nav header"></b:navLink>
+						<b:navLink value="Separated link" href="#"></b:navLink>
+						<b:navLink value="One more separated link" href="#"></b:navLink>
+					</b:dropMenu>
+				</b:navbarLinks>
+			</b:navBar>
+		</h:form>
+	</b:container>
+	<b:container><b:row>
+  <b:column col-md="11">
+    <b:well>
+      <h3>Bienvenido</h3>
+      #{sessionBean.empleado.nombre}<code><b:well /></code>.
+    </b:well>
+  </b:column>
+</b:row></b:container>
+	#{sessionBean.empleado.nombre}
+
+	</ui:composition>
