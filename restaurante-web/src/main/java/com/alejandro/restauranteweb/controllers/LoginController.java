@@ -55,6 +55,8 @@ public class LoginController {
 
 					if (empleadoConsultado.isSuperAdminGeneral()) {
 						ControllersUtil.redireccionar("/adminrestaurantes.xhtml");
+					} else if (empleadoConsultado.isSuperAdmin()) {
+						ControllersUtil.redireccionar("/adminmenu.xhtml");
 					}
 					this.sessionBean.setEmpleado(empleadoConsultado);
 				} else {

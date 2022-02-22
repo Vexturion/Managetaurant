@@ -6512,3 +6512,160 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.alejandro
 2022-02-18 17:25:06,957 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
 2022-02-18 17:25:06,959 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-18 17:25:06,959 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 13:42:28,303 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-service: com.alejandro:restaurante-service:0.0.1-SNAPSHOT with classifier  to /restaurante-service/target/classes
+2022-02-22 13:42:28,377 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurantes-data: com.alejandro:restaurantes-data:0.0.1-SNAPSHOT with classifier  to /restaurantes-data/target/classes
+2022-02-22 13:42:28,378 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-entities: com.alejandro:restaurante-entities:0.0.1-SNAPSHOT with classifier  to /restaurante-entities/target/classes
+2022-02-22 13:42:35,847 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 13:42:35,851 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 13:42:35,862 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 13:42:35,862 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 14:06:19,839 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-22 14:36:26,947 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-entities: com.alejandro:restaurante-entities:0.0.1-SNAPSHOT with classifier  to /restaurante-entities/target/classes
+2022-02-22 14:36:28,163 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:36:28,163 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 14:36:28,166 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:36:28,166 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 14:40:52,574 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:40:52,575 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 14:40:52,577 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:40:52,578 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 14:41:57,277 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:41:57,279 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 14:41:57,291 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:41:57,293 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 14:42:24,625 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:42:24,626 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 14:42:24,630 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:42:24,632 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 14:47:17,579 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:47:17,586 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 14:47:17,589 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:47:17,590 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 14:52:04,463 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:52:04,465 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 14:52:04,468 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:52:04,469 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 14:56:44,266 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:56:44,266 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 14:56:44,283 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 14:56:44,284 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 15:15:13,398 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:15:13,407 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 15:15:13,411 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:15:13,413 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 15:18:04,439 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:18:04,441 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 15:18:04,444 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:18:04,446 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 15:18:56,786 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:18:56,787 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 15:18:56,789 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:18:56,790 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 15:27:35,855 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:27:35,857 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\main\resources
+2022-02-22 15:27:35,860 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:27:35,861 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurantes-data\src\test\resources
+2022-02-22 15:37:29,522 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:37:29,523 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 15:37:29,527 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:37:29,528 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 15:41:05,725 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:41:05,727 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 15:41:05,731 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 15:41:05,732 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:04:38,674 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:04:38,679 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:04:38,682 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:04:38,682 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:05:18,756 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:05:18,757 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:05:18,763 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:05:18,764 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:08:54,901 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:08:54,908 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:08:54,913 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:08:54,914 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:15:38,493 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:15:38,496 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:15:38,498 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:15:38,499 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:15:45,470 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:15:45,471 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:15:45,473 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:15:45,474 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:17:39,198 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:17:39,199 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:17:39,201 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:17:39,201 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:20:06,037 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:20:06,038 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:20:06,040 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:20:06,041 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:23:39,877 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:23:39,878 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:23:39,881 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:23:39,882 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:25:42,507 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:25:42,508 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:25:42,510 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:25:42,511 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:27:43,531 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:27:43,532 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:27:43,535 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:27:43,536 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:29:19,273 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:29:19,274 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:29:19,276 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:29:19,277 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:32:40,580 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:32:40,581 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:32:40,583 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:32:40,584 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:33:36,305 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:33:36,306 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:33:36,308 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:33:36,309 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:42:22,456 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:42:22,456 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:42:22,459 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:42:22,460 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:44:01,871 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:44:01,872 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:44:01,874 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:44:01,875 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:46:07,739 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:46:07,739 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:46:07,741 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:46:07,742 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:48:02,468 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:48:02,469 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:48:02,473 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:48:02,474 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:48:35,090 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:48:35,090 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:48:35,094 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:48:35,095 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:48:42,216 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:48:42,217 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:48:42,219 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:48:42,220 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:50:15,384 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:50:15,384 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:50:15,386 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:50:15,386 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:50:28,705 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:50:28,706 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:50:28,708 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:50:28,709 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 16:50:47,019 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:50:47,020 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 16:50:47,022 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 16:50:47,023 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 17:03:07,339 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 17:03:07,357 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 17:03:07,363 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 17:03:07,364 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources
+2022-02-22 17:05:07,114 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 17:05:07,114 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\main\resources
+2022-02-22 17:05:07,116 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-22 17:05:07,117 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Horiz\OneDrive\Documentos\Restaurante-Data\restaurante-web\src\test\resources

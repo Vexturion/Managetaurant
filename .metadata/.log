@@ -6655,3 +6655,110 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2022-02-22 13:41:19.209 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-02-22 13:42:00.568
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-02-22 13:42:00.568
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16bed816,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4cae7d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-02-22 13:42:14.879
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-02-22 13:42:14.892
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-02-22 13:42:15.069
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Horiz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jem.proxy 4 2 2022-02-22 14:41:58.250
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jem.proxy".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.Bundle.adapt(java.lang.Class)" because "bundle" is null
+	at org.eclipse.core.internal.runtime.InternalPlatform.getFragments(InternalPlatform.java:287)
+	at org.eclipse.core.runtime.Platform.getFragments(Platform.java:1409)
+	at org.eclipse.jem.internal.proxy.core.ProxyPlugin.urlLocalizeBundleAndFragments(ProxyPlugin.java:392)
+	at org.eclipse.jem.internal.proxy.remote.LocalFileConfigurationContributorController.contributeClasspath(LocalFileConfigurationContributorController.java:261)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.ServletBeanProxyContributor.contributeClasspaths(ServletBeanProxyContributor.java:59)
+	at org.eclipse.jem.internal.proxy.ide.IDERegistration$2.run(IDERegistration.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jem.internal.proxy.ide.IDERegistration.startImplementation(IDERegistration.java:101)
+	at org.eclipse.jem.internal.proxy.ide.IDERegistration.startAnImplementation(IDERegistration.java:42)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.taglib.TagRecordFactory.createProxyRegistry(TagRecordFactory.java:134)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.taglib.TagRecordFactory.<init>(TagRecordFactory.java:54)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.taglib.FaceletTagIndex.createNewInstance(FaceletTagIndex.java:87)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.taglib.FaceletTagIndex.createNewInstance(FaceletTagIndex.java:1)
+	at org.eclipse.jst.jsf.common.internal.resource.ResourceSingletonObjectManager.getInstance(ResourceSingletonObjectManager.java:92)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.FaceletTagRegistry.initialize(FaceletTagRegistry.java:182)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.FaceletTagRegistry.getAllTagLibraries(FaceletTagRegistry.java:141)
+	at org.eclipse.jst.jsf.facelet.core.internal.registry.FaceletTagRegistry.getTagLibrary(FaceletTagRegistry.java:242)
+	at org.eclipse.jst.jsf.facelet.core.internal.metadata.FaceletNamespaceMetaDataLocator.locateMetaDataModelProviders(FaceletNamespaceMetaDataLocator.java:65)
+	at org.eclipse.jst.jsf.common.metadata.internal.DomainLoadingStrategy.locateMetaDataSourceInstances(DomainLoadingStrategy.java:145)
+	at org.eclipse.jst.jsf.common.metadata.internal.DomainLoadingStrategy.load(DomainLoadingStrategy.java:57)
+	at org.eclipse.jst.jsf.common.metadata.internal.MetaDataModel.load(MetaDataModel.java:95)
+	at org.eclipse.jst.jsf.common.metadata.internal.MetaDataModelManager.loadMetadata(MetaDataModelManager.java:152)
+	at org.eclipse.jst.jsf.common.metadata.internal.MetaDataModelManager.getModel(MetaDataModelManager.java:95)
+	at org.eclipse.jst.jsf.common.metadata.query.internal.MetaDataQueryHelper.getMDModel(MetaDataQueryHelper.java:126)
+	at org.eclipse.jst.jsf.common.metadata.query.internal.MetaDataQueryHelper.getModel(MetaDataQueryHelper.java:61)
+	at org.eclipse.jst.jsf.common.metadata.query.internal.MetaDataQueryHelper.getEntities(MetaDataQueryHelper.java:71)
+	at org.eclipse.jst.jsf.common.metadata.query.internal.MetaDataQueryHelper.getEntity(MetaDataQueryHelper.java:66)
+	at org.eclipse.jst.jsf.metadataprocessors.MetaDataEnabledProcessingFactory.getAttributeValueRuntimeTypeFeatureProcessors(MetaDataEnabledProcessingFactory.java:104)
+	at org.eclipse.jst.jsf.metadataprocessors.MetaDataEnabledProcessingFactory.getAttributeValueRuntimeTypeFeatureProcessors(MetaDataEnabledProcessingFactory.java:178)
+	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateNonELAttributeValue(AttributeValidatingStrategy.java:697)
+	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.access$1(AttributeValidatingStrategy.java:674)
+	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy$1.run(AttributeValidatingStrategy.java:188)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validateAttributeValue(AttributeValidatingStrategy.java:170)
+	at org.eclipse.jst.jsf.validation.internal.strategy.AttributeValidatingStrategy.validate(AttributeValidatingStrategy.java:146)
+	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateTag(XMLViewDefnValidator.java:101)
+	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateRegions(XMLViewDefnValidator.java:179)
+	at org.eclipse.jst.jsf.validation.internal.XMLViewDefnValidator.validateView(XMLViewDefnValidator.java:136)
+	at org.eclipse.jst.jsf.facelet.ui.internal.validation.DefaultFaceletValidationStrategy.doValidate(DefaultFaceletValidationStrategy.java:54)
+	at org.eclipse.jst.jsf.facelet.ui.internal.validation.AbstractFaceletValidationStrategy.validateFile(AbstractFaceletValidationStrategy.java:108)
+	at org.eclipse.jst.jsf.facelet.ui.internal.validation.HTMLValidator.validate(HTMLValidator.java:69)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2022-02-22 15:09:17.846
+!MESSAGE Several ports (8005, 8080) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).

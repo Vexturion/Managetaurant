@@ -14,11 +14,21 @@
 					<b:navLink value="Link" href="#"></b:navLink>
 					<b:navLink value="Link" href="#"></b:navLink>
 					<b:dropMenu value="Gestion" iconAwesome="list">
-						<b:navLink value="Restaurantes" href="adminrestaurantes.xhtml"></b:navLink>
+						<!-- MENU SUPER ADMIN GENERAL -->
+						<b:navLink value="Restaurantes" href="adminrestaurantes.xhtml" rendered="#{sessionBean.empleado.superAdminGeneral}"></b:navLink>
 						<b:navLink value="Tipos de restaurantes"
-							href="admintiposrestaurantes.xhtml"></b:navLink>
-						<b:navLink value="Perfiles" href="#"></b:navLink>
-						<b:navLink value="Cerrar Sesion" href="#"></b:navLink>
+							href="admintiposrestaurantes.xhtml" rendered="#{sessionBean.empleado.superAdminGeneral}"></b:navLink>
+						<b:navLink value="Perfiles" href="#" rendered="#{sessionBean.empleado.superAdminGeneral}"></b:navLink>
+						
+						<!-- MENU SUPER ADMIN-->
+						<b:navLink value="Menus" href="adminmenus.xhtml" rendered="#{sessionBean.empleado.superAdmin}"></b:navLink>
+						<b:navLink value="Sucursales"
+							href="adminsucursales.xhtml" rendered="#{sessionBean.empleado.superAdmin}"></b:navLink>
+						<b:navLink value="Alimentos" href="adminalimentos.xhtml" rendered="#{sessionBean.empleado.superAdmin}"></b:navLink>
+						<b:navLink value="Empleados" href="adminempleados.xhtml" rendered="#{sessionBean.empleado.superAdmin}"></b:navLink>
+						
+						<!-- MENU GENERAL-->
+						<b:navLink value="Cerrar Sesion" ajax="true" onclick="ajax:sessionCloseBean.cerrarSesion()"></b:navLink>
 						<b:navLink></b:navLink>
 						<b:navLink header="Nav header"></b:navLink>
 						<b:navLink value="Separated link" href="#"></b:navLink>

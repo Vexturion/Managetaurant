@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.alejandro.restaurantedata.entity.CommonEntity"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="com.alejandro.restaurantedata.dao.TipoRestauranteDAO"/>
@@ -34,7 +33,6 @@
     <fullyQualifiedTypeName name="com.alejandro.restauranteservice.services.AdminGeneralService"/>
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="com.alejandro.restaurantesdata.dao.impl.RestauranteDAOImpl"/>
-    <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Restaurante"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.TipoRestaurante"/>
     <fullyQualifiedTypeName name="org.checkerframework.checker.regex.qual.PartialRegex"/>
     <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
@@ -45,7 +43,6 @@
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Menu"/>
     <fullyQualifiedTypeName name="java.util.TimeZone"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteweb.converters.LocalDateTimeConverter"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteweb.utils.ControllersUtil"/>
     <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
+    <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Sucursal"/>
+    <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Restaurante"/>
+    <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Menu"/>
 </qualifiedTypeNameHistroy>
