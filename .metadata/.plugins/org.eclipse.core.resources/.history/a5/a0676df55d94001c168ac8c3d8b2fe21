@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.alejandro.restaurantesdata.dao;
+
+/**
+ * @author Horiz
+ *
+ */
+public interface TipoAlimento {
+
+}

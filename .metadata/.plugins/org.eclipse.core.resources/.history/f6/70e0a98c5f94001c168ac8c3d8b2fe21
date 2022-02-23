@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package com.alejandro.restaurantesdata.dao.impl;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import com.alejandro.restauranteentities.entity.TipoAlimento;
+import com.alejandro.restaurantesdata.dao.TipoAlimentoDAO;
+import com.alejandro.restaurantesdata.myexceptions.RestauranteException;
+
+/**
+ * @author Horiz
+ *
+ */
+public class TipoAlimentoDAOImpl implements TipoAlimentoDAO {
+
+	@Override
+	public int guardar(TipoAlimento tipoAlimento) throws SQLException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int actualizar(TipoAlimento tipoAlimento) throws SQLException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int eliminar(int idTipoAlimento) throws SQLException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<TipoAlimento> consultar() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public TipoAlimento consultarPorId(int idTipoAlimento) throws SQLException, RestauranteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
