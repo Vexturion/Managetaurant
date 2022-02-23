@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.alejandro.restauranteservice.services;
+
+/**
+ * @author Horiz
+ *
+ */
+public class AdminSucursalService {
+
+}

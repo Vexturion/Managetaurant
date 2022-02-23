@@ -15,17 +15,17 @@
 			<h:form id="formAdminTiposAlimentos">
 				<b:growl show-detail="true" showSummary="true" id="msgValidaciones"
 					placementFrom="top"></b:growl>
-				<b:panel title="Administracion de tipos de restaurantes"
+				<b:panel title="Administracion de tipos de alimentos"
 					look="primary" collapsible="false">
 					<b:commandButton look="primary" id="btnAgregar" value="Agregar"
 						size="lg" style="margin-bottom: 20px" ajax="true"
 						oncomplete="$('#amodal').modal('show')"
 						onclick="ajax:adminTiposAlimentosController.inicializarComponentes()"
-						update="formRegistroTipoRestaurante">
+						update="formRegistroTipoAlimento">
 					</b:commandButton>
 					<b:dataTable id="tblTiposAlimentos" style="width: 100%"
 						excel="true" csv="true" pdf="true"
-						value="#{adminTiposAlimentosController.tiposRestaurantes}"
+						value="#{adminTiposAlimentosController.tiposAlimentos}"
 						var="tipoAlimento">
 						
 						<b:dataTableColumn label="Descripcion">
@@ -49,7 +49,7 @@
 
 						<b:dataTableColumn label="Actualizar">
 							<b:commandButton icon="pencil" look="success" ajax="true"
-								size="sm" update="formRegistroTipoRestaurante"
+								size="sm" update="formRegistroTipoAlimento"
 								oncomplete="$('#amodal').modal('show')"
 								onclick="ajax:adminTiposAlimentosController.cargarInformacionModal(tipoAlimento)"></b:commandButton>
 						</b:dataTableColumn>
@@ -57,9 +57,9 @@
 					</b:dataTable>
 				</b:panel>
 			</h:form>
-			<b:modal id="amodal" title="Registro de tipo de restaurante"
+			<b:modal id="amodal" title="Registro de tipo de alimento"
 				styleClass="modalPseudoClass">
-				<b:form id="formRegistroTipoRestaurante">
+				<b:form id="formRegistroTipoAlimento">
 					<b:inputText id="txtDescripcion"
 						value="#{adminTiposAlimentosController.tipoAlimento.descripcion}"
 						label="Descripcion" col-md="12" required="true"
@@ -83,13 +83,13 @@
 						<b:column colMd="6">
 							<b:commandButton id="btnGuardar" large-screen="full-width"
 								value="Guardar" look="success"
-								update="formRegistroTipoRestaurante, formAdminTiposAlimentos:tblTiposAlimentos, formAdminTiposAlimentos:msgValidaciones"
+								update="formRegistroTipoAlimento, formAdminTiposAlimentos:tblTiposAlimentos, formAdminTiposAlimentos:msgValidaciones"
 								oncomplete="$('#amodal').modal('hide')"
 								onclick="ajax:adminTiposAlimentosController.guardar()"
-								rendered="#{adminTiposAlimentosController.tipoAlimento.idTipoRestaurante == null}"></b:commandButton>
+								rendered="#{adminTiposAlimentosController.tipoAlimento.idTipoAlimento == null}"></b:commandButton>
 							<b:commandButton id="btnActualizar" large-screen="full-width"
 								value="Actualizar" look="success"
-								update="formRegistroTipoRestaurante, formAdminTiposAlimentos:tblTiposAlimentos, formAdminTiposAlimentos:msgValidaciones"
+								update="formRegistroTipoAlimento, formAdminTiposAlimentos:tblTiposAlimentos, formAdminTiposAlimentos:msgValidaciones"
 								oncomplete="$('#amodal').modal('hide')"
 								onclick="ajax:adminTiposAlimentosController.actualizar()"
 								rendered="#{adminTiposAlimentosController.tipoAlimento.idTipoAlimento != null}"></b:commandButton>
