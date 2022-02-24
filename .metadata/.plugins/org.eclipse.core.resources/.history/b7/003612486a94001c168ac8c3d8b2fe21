@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.alejandro.restauranteentities.entity;
+
+/**
+ * @author Horiz
+ *
+ */
+public class Alimento {
+
+}

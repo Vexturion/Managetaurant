@@ -1,0 +1,124 @@
+/**
+ * 
+ */
+package com.alejandro.restauranteentities.entity;
+
+/**
+ * @author Horiz
+ *
+ */
+public class Alimento extends CommonEntity{
+
+	private Integer idAlimento;
+	
+	private String nombre;
+	
+	private String imagen;
+	
+	private String descripcion;
+	
+	private Double precio;
+	
+	private String descuento;
+	
+	private TipoAlimento tipoAlimento;
+
+	/**
+	 * @return the idAlimento
+	 */
+	public Integer getIdAlimento() {
+		return idAlimento;
+	}
+
+	/**
+	 * @param idAlimento the idAlimento to set
+	 */
+	public void setIdAlimento(Integer idAlimento) {
+		this.idAlimento = idAlimento;
+	}
+
+	/**
+	 * @return the nombre
+	 */
+	public String getNombre() {
+		return nombre;
+	}
+
+	/**
+	 * @param nombre the nombre to set
+	 */
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	/**
+	 * @return the imagen
+	 */
+	public String getImagen() {
+		return imagen;
+	}
+
+	/**
+	 * @param imagen the imagen to set
+	 */
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
+	}
+
+	/**
+	 * @return the descripcion
+	 */
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	/**
+	 * @param descripcion the descripcion to set
+	 */
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	/**
+	 * @return the precio
+	 */
+	public Double getPrecio() {
+		return precio;
+	}
+
+	/**
+	 * @param precio the precio to set
+	 */
+	public void setPrecio(Double precio) {
+		this.precio = precio;
+	}
+
+	/**
+	 * @return the descuento
+	 */
+	public String getDescuento() {
+		return descuento;
+	}
+
+	/**
+	 * @param descuento the descuento to set
+	 */
+	public void setDescuento(String descuento) {
+		this.descuento = descuento;
+	}
+
+	/**
+	 * @return the tipoAlimento
+	 */
+	public TipoAlimento getTipoAlimento() {
+		return tipoAlimento;
+	}
+
+	/**
+	 * @param tipoAlimento the tipoAlimento to set
+	 */
+	public void setTipoAlimento(TipoAlimento tipoAlimento) {
+		this.tipoAlimento = tipoAlimento;
+	}
+	
+}

@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="com.alejandro.restaurantesdata.dao.RestauranteDAO"/>
     <fullyQualifiedTypeName name="com.alejandro.restaurantesdata.myexceptions.RestauranteException"/>
     <fullyQualifiedTypeName name="com.alejandro.restaurantesdata.enums.CodigoEnum"/>
-    <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.CommonEntity"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Rol"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.alejandro.restaurantesdata.connection.ConnectionFactory"/>
@@ -32,7 +31,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteservice.services.AdminGeneralService"/>
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
-    <fullyQualifiedTypeName name="com.alejandro.restaurantesdata.dao.impl.RestauranteDAOImpl"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.TipoRestaurante"/>
     <fullyQualifiedTypeName name="org.checkerframework.checker.regex.qual.PartialRegex"/>
     <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Sucursal"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Restaurante"/>
     <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.Menu"/>
+    <fullyQualifiedTypeName name="com.alejandro.restaurantesdata.dao.impl.RestauranteDAOImpl"/>
+    <fullyQualifiedTypeName name="com.alejandro.restauranteentities.entity.CommonEntity"/>
 </qualifiedTypeNameHistroy>
